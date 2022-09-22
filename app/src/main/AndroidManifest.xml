@@ -14,10 +14,10 @@
         android:theme="@style/Theme.AndProject_thriftily"
         tools:targetApi="31">
         <activity
-            android:name=".Mainpage"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Logo"
+            android:name=".IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
