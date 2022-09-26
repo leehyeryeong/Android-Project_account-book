@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioProjects/AndProject_thriftily/app/src/main/res/layout/account_in.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/AndProject_thriftily/app/src/main/res/layout/account_in.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/AndProject_thriftily/app/src/main/res/layout/account_int.xml" value="0.22826086956521738" />
         <entry key="..\:/AndroidStudioProjects/AndProject_thriftily/app/src/main/res/layout/account_out.xml" value="0.22826086956521738" />
         <entry key="..\:/AndroidStudioProjects/AndProject_thriftily/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/AndProject_thriftily/app/src/main/res/layout/activity_mainpage.xml" value="0.2" />
