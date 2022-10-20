@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".IntroActivity">
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:src="@drawable/logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알뜰살뜰"
+        android:textSize="45dp"
+        android:textColor="#FE3636"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작하기"
+        android:textSize="15dp"
+        android:id="@+id/btnStart"/>
+</LinearLayout>
