@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Fragment1">
     <CalendarView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,11 +16,4 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/viewPager"/>
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        app:menu="@menu/menu"
-        app:itemBackground="@android:color/white">
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
-</LinearLayout>
+</FrameLayout>

@@ -16,7 +16,7 @@ public class MyDBHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         //테이블 생성
         //필요한 속성... 입금/지출/날짜???/사용자가누군지/가격
-        String str = "create table accountTBL();";
+        String str = "create table accountTBL(getMoney getchar(50), outMoney getchar(50), );";
         sqLiteDatabase.execSQL(str);
     }
 
