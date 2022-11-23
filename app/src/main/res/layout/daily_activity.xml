@@ -21,7 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="15dp"
-                android:text="   수입: 0원!   "/>
+                android:text="   수입: 0원   "/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/fab_btn"
-        android:layout_gravity="bottom||right"
+        android:layout_gravity="bottom|right"
         android:layout_margin="16dp"
         android:backgroundTint="@color/teal_200"
         android:src="@drawable/ic_add">

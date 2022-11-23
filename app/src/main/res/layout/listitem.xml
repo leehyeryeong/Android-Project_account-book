@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:gravity="center"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/date"
+        android:text="날짜"
+    android:textSize="20dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/content"
+        android:textStyle="bold"
+        android:text="내용"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/coast"
+        android:textSize="20dp"
+        android:text="총합"/>
+</LinearLayout>
