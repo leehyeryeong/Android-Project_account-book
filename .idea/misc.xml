@@ -15,7 +15,15 @@
         <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/drawable-v24/ic_add.xml" value="0.2195" />
         <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/drawable-v24/ic_menu.xml" value="0.2195" />
         <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/drawable-v24/ic_search.xml" value="0.2195" />
+        <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/layout/account_in.xml" value="0.23641304347826086" />
+        <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/layout/daily_activity.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/layout/expenses_pattern.xml" value="0.176" />
+        <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/layout/fragment_1.xml" value="0.23641304347826086" />
+        <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/layout/fragment_2.xml" value="0.23641304347826086" />
+        <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/layout/fragment_3.xml" value="0.23641304347826086" />
+        <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/layout/intro.xml" value="0.23641304347826086" />
+        <entry key="..\:/AndroidStudioProjects/AndProject_thrifty/app/src/main/res/menu/menu.xml" value="0.24947916666666667" />
       </map>
     </option>
   </component>
