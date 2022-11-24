@@ -5,9 +5,11 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+import android.widget.ListView;
 
 import com.google.android.material.tabs.TabLayout;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,6 +19,12 @@ public class MainActivity extends AppCompatActivity {
     Fragment Fragment1;
     Fragment Fragment2;
     Fragment Fragment3;
+    ListView dList;
+    DailyAdapter dAdapter;
+    ArrayList<daily> dArray;
+    daily dItem;
+
+    String
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
