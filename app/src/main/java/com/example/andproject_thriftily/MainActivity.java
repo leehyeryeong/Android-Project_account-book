@@ -3,9 +3,11 @@ package com.example.andproject_thriftily;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
+import android.widget.ListView;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import java.util.ArrayList;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -16,6 +18,13 @@ public class MainActivity extends AppCompatActivity {
     Fragment2 dailyFragment;
     Fragment3 expensesFragment;
     BottomNavigationView bottom_menu;
+    ListView dList;
+    DailyAdapter dAdapter;
+    ArrayList<daily> dArray;
+    daily dItem;
+
+    String
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
