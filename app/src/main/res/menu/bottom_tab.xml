@@ -4,13 +4,16 @@
     <item
         android:id="@+id/tab1"
         app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_calendar"
         android:title="달력"/>
     <item
         android:id="@+id/tab2"
         app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_money"
         android:title="일일 지출"/>
     <item
         android:id="@+id/tab3"
         app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_barchart"
         android:title="지출 그래프"/>
 </menu>
