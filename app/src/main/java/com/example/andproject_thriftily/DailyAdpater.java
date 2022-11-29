@@ -3,6 +3,7 @@ package com.example.andproject_thriftily;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Adapter;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
@@ -10,7 +11,12 @@ import java.util.ArrayList;
 
 public class DailyAdapter extends BaseAdapter {
     Context aContext;
-    ArrayList <daily> aData;
+    ArrayList<Daily> aData;
+
+    public DailyAdapter(Context aContext, ArrayList<Daily> aData) {
+        this.aContext = aContext;
+        this.aData = aData;
+    }
 
     @Override
     public int getCount() {
@@ -29,12 +35,12 @@ public class DailyAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        // listitem 레이아웃을 inflate
+        //listitem 레이아웃을 inflate
         if(view == null){
-            view = View.inflate(aContext, R.layout.listitem, null);
+            view = View.inflate(aContext, R.layout.daily_activity, null);
         }
-        TextView date=(TextView)view.findViewById(R.id.date);
-        TextView content=(TextView) view.findViewById(R.id.content);
+        TextView date = (TextView)view.findViewById(R.id.date);
+        TextView content = (TextView) view.findViewById(R.id.content);
         TextView coast = (TextView) view.findViewById(R.id.coast);
 
         date.setText(aData.get(i).date);

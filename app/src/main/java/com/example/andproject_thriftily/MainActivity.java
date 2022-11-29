@@ -18,12 +18,7 @@ public class MainActivity extends AppCompatActivity {
     Fragment2 dailyFragment;
     Fragment3 expensesFragment;
     BottomNavigationView bottom_menu;
-    ListView dList;
-    DailyAdapter dAdapter;
-    ArrayList<daily> dArray;
-    daily dItem;
 
-    String
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
